@@ -282,3 +282,30 @@
 //   return value < 100;
 // });
 // console.log(res);
+
+//-----------------> Qo'shimcha vazifalar <-------------
+// *Eslatma bularning xammasini chatgpt.comdan olingan*
+
+// 1.Arraydagi raqamlarni filtrlash
+// Sizga raqamlar jamlangan array beriladi. Faqat manfiy bo'lmagan (0 va undan katta) raqamlarni filtrlab oling va yangi array yarating.
+// let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -24, -46, -56];
+// let res = [];
+// numbers.filter(function (value) {
+//   if (value > 0) {
+//     res.push(value);
+//   }
+// });
+// console.log(res);
+
+// 2.Eng katta raqamni topish
+// Sizga raqamlar array beriladi. find metodidan foydalanib, arraydagi 5 dan katta bo'lgan birinchi raqamni toping.
+// let numbers = [2, 3, 6, 7, 8, 4];
+// let res = numbers.find(function (value) {
+//   if (value > 5) {
+//     return value;
+//   }
+// });
+// console.log(res);
+
+// 3.Hammasi to'g'rimi?
+// Arrayda hamma elementlar toq raqammi yoki yo'qligini tekshiring (every metodidan foydalaning).
